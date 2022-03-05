@@ -9,4 +9,8 @@ export default func1
 export default () => <h1>PRIMEIRO COMPONENTE ARROW</h1>
 */
 
-export default () => (5+7)
+export default (props) => 
+    <div>
+        <h1>{props.valor}</h1>
+        <h1>{props.soma}</h1>
+    </div>
